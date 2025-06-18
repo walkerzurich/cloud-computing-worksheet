@@ -1,0 +1,14 @@
+{
+  "build": {
+    "nixpacksPlan": {
+      "phases": {
+        "install": {
+          "cmds": ["chmod +x start.sh"]
+        }
+      }
+    }
+  },
+  "start": {
+    "cmd": "./start.sh"
+  }
+}
